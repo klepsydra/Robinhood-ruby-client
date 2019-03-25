@@ -13,13 +13,13 @@ Swagger Codegen version: 2.4.2
 =end
 
 $:.push File.expand_path("../lib", __FILE__)
-require "swagger_client/version"
+require "robinhood_ruby_client/version"
 
 Gem::Specification.new do |s|
-  s.name        = "swagger_client"
+  s.name        = "robinhood_ruby_client"
   s.version     = SwaggerClient::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Swagger-Codegen"]
+  s.authors     = ["Swagger-Codegen, klepsydra%github.com@askMarcos.com"]
   s.email       = [""]
   s.homepage    = "https://github.com/swagger-api/swagger-codegen"
   s.summary     = "Api Documentation Ruby Gem"
